@@ -1,0 +1,82 @@
+body {
+    position: absolute!important;
+    top: 0!important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    width: 1100px!important;
+    margin: auto!important;
+}
+.BanList {
+    position : absolute;
+    left: 905px;
+    top: 5px;
+    z-index: 9999999;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    font-family: 'Nanum Gothic', "Malgun Gothic", dotum, sans-serif !important;
+    background-color: white;
+    padding: .4em .4em;
+    margin: auto;
+    font-size: 14px;
+}
+.BanButton {
+    position : absolute;
+    left: 905px;
+    top: 5px;
+    z-index: 9999998;    
+    font-family: 'Nanum Gothic', "Malgun Gothic", dotum, sans-serif !important;
+    //background-color: white;
+    padding: .5em;
+    margin: auto;
+    font-size: 16px;
+}
+.BanList-wrapper {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', "Malgun Gothic", dotum, sans-serif !important;
+    margin: auto;
+}
+.BanCheck {
+    text-align: center !important;
+    margin: auto;
+}
+.BanCounts.fa-layers-counter {
+    background-color: #ff253a;
+    border-radius: 1em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    height: 1.5em;
+    line-height: 1;
+    max-width: 5em;
+    min-width: 1.5em;
+    overflow: hidden;
+    padding: .25em;
+    right: 0;
+    text-overflow: ellipsis;
+    top: 0;
+    -webkit-transform: scale(0.65);
+    transform: scale(0.65);
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+.BanCounts.fa-layers-counter, .fa-layers-text {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+}
+.BanNotice {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    border-radius: 1em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    padding: .25em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', "Malgun Gothic", dotum, sans-serif !important;
+}
